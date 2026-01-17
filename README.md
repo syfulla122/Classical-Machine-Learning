@@ -18,3 +18,6 @@ import networkx as nx
 G = nx.from_pandas_edgelist(df, 'Source', 'Target')
 # Calculating centrality to find influencers/hubs
 centrality = nx.degree_centrality(G)
+#How to Run
+pip install networkx scikit-learn pandas
+jupyter notebook "Social_Graph_Fraud_Detection.ipynb"
