@@ -1,9 +1,3 @@
-### 3. 🕸️ Graph Theory & Agents README (For Fraud/Transit Projects)
-*Use this for the folder containing `lab4...fraud analysis.ipynb` and `Untitled1.ipynb`. **This is your most important README for the Agent role.***
-
-```markdown
-# Graph-Based Anomaly Detection & Network Optimization
-
 ### 📋 Overview
 This project leverages **Graph Theory** and **Machine Learning** to solve complex relationship problems. In the context of AI Agents, these algorithms are essential for designing non-linear workflows and detecting patterns in interconnected data.
 
@@ -23,9 +17,4 @@ import networkx as nx
 # Building the relationship graph for analysis
 G = nx.from_pandas_edgelist(df, 'Source', 'Target')
 # Calculating centrality to find influencers/hubs
-centrality = nx.degree_centrality(G)# Classical-Machine-Learning
-
-🚀 How to Run
-
-pip install networkx scikit-learn pandas
-jupyter notebook "Social_Graph_Fraud_Detection.ipynb"
+centrality = nx.degree_centrality(G)
